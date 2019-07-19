@@ -20,3 +20,21 @@ After restarting VS Code with proper PIO extension installed I used the *home* s
 
 ![create project dialog](create-project.png)
 
+### Writing the Application
+
+The first straight forward (google-copy-paste-approach) implementation failed due to missing definition of `LED_BUILTIN`:
+
+```cpp
+#include <Arduino.h>
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+ 
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(500);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(500);
+}
+```
