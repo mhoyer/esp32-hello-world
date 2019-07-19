@@ -13,3 +13,10 @@ alias pio='code --extensions-dir ~/.vscode-pio/extensions --user-data-dir ~/.vsc
 ```
 
 Now I was able to start VS Code with an isolated environment and [installed Platform IO extension](https://platformio.org/install/ide?install=vscode).
+
+### Creating a New Project
+
+After restarting VS Code with proper PIO extension installed I used the *home* screen to create a new project "*esp32-hello-world*". My ESP32 development board was a **ESP32-WROOM-32** from Espressif.
+
+![create project dialog](create-project.png)
+

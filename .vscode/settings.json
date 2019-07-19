@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/mhoyer/.platformio/penv/bin:/home/mhoyer/.platformio/penv:/home/mhoyer/.nvm/versions/node/v8.9.4/bin:/home/mhoyer/.cargo/bin:/home/mhoyer/bin:/home/mhoyer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
