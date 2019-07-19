@@ -38,3 +38,9 @@ void loop() {
   delay(500);
 }
 ```
+
+But a quick search brought the fix:
+
+```cpp
+#define LED_BUILTIN 2
+```
